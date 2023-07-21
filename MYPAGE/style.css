@@ -1,0 +1,244 @@
+:root {
+  --background-color:#4801ff!important;
+  --logo-jubi:#e5d9d1!important;
+  --logo-dubab:#eae2db;
+  --accent-color:black;
+}
+body {
+  background-color: var(--background-color);
+}
+a {
+  text-decoration: none;
+  color:var(--accent-color);
+  cursor: pointer;
+}
+.navbar__logo {
+  position: absolute;
+  bottom:500px;
+  left:200px;
+  font-family: "ubuntu Condensed";
+}
+.navbar__logo i {
+  position: relative;
+  color:var(--logo-dubab);
+  top:326px;
+  left:256px;
+  font-size: 1px;
+}
+.navbar__logo div{
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+
+  
+  font-weight: bold;
+  padding-left:10px;
+  padding-top:10px;
+  height: 100px;
+}
+
+.jubi {
+  position: relative;
+  z-index: 2;
+  top:70px;
+  left:30px;
+  font-size:130px;
+  color:var(--logo-jubi);
+  
+  /* top:1px; */
+}
+.dubab {
+  position:relative;
+  z-index: 1;
+  bottom:120px;
+  left:30px;
+  font-size : 80px;
+  font-weight: bold;
+  color:var(--logo-dubab);
+  margin:0;
+  display: flex;
+}
+.navbar__menu{
+  font-family: "Tektur";
+  font-weight:bolder;
+  list-style: none;
+  margin:0;
+}
+
+/* hover */
+.jubidubab:hover{
+  color :#008bc6;
+}
+.profile:hover {
+  color: var(--logo-jubi);
+}
+.portforlio:hover {
+  color: var(--logo-jubi);
+}
+.contact:hover {
+  color: var(--logo-jubi);
+}
+
+/* ##### PROFILE ##### */
+.profile-p {
+  position:absolute;
+  bottom:407px;
+  right:512px;
+  font-size: 100px;
+}
+.profile-r {
+  position:absolute;
+  bottom:407px;
+  right:454px;
+  font-size: 100px;
+}
+.profile-o {
+  position:absolute;
+  bottom:407px;
+  right:395px;
+  font-size: 100px;
+}
+.profile-f {
+  position:absolute;
+  bottom:407px;
+  right:347px;
+  font-size: 100px;
+}
+.profile-i {
+  position:absolute;
+  bottom:407px;
+  right:307px;
+  font-size: 100px;
+}
+.profile-l {
+  position:absolute;
+  bottom:407px;
+  right:253px;
+  font-size: 100px;
+}
+.profile-e {
+  position:absolute;
+  bottom:407px;
+  right:200px;
+  font-size: 100px;
+}
+
+/* ##### PORTFORLIO ##### */
+.portforlio-p {
+  position:absolute;
+  bottom:331px;
+  right:689px;
+  font-size: 100px;
+}
+.portforlio-o1 {
+  position:absolute;
+  bottom:331px;
+  right:628px;
+  font-size: 100px;
+}
+.portforlio-r1 {
+  position:absolute;
+  bottom:331px;
+  right:572px;
+  font-size: 100px;
+}
+.portforlio-t {
+  position:absolute;
+  bottom:331px;
+  right:525px;
+  font-size: 100px;
+}
+.portforlio-f {
+  position:absolute;
+  bottom:331px;
+  right:472px;
+  font-size: 100px;
+}
+.portforlio-o2 {
+  position:absolute;
+  bottom:331px;
+  right:411px;
+  font-size: 100px;
+}
+.portforlio-r2 {
+  position:absolute;
+  bottom:331px;
+  right:354px;
+  font-size: 100px;
+}
+.portforlio-l {
+  position:absolute;
+  bottom:331px;
+  right:297px;
+  font-size: 100px;
+}
+.portforlio-i {
+  position:absolute;
+  bottom:331px;
+  right:258px;
+  font-size: 100px;
+}
+.portforlio-o3 {
+  position:absolute;
+  bottom:331px;
+  right:200px;
+  font-size: 100px;
+}
+
+/* ##### contact ##### */
+.contact-c1 {
+  position:absolute;
+  bottom:255px;
+  right:696px;
+  font-size: 100px;
+}
+.contact-o {
+  position:absolute;
+  bottom:255px;
+  right:636px;
+  font-size: 100px;
+}
+.contact-n {
+  position:absolute;
+  bottom:255px;
+  right:577px;
+  font-size: 100px;
+}
+.contact-t1 {
+  position:absolute;
+  bottom:255px;
+  right:526px;
+  font-size: 100px;
+}
+.contact-a {
+  position:absolute;
+  bottom:255px;
+  right:479px;
+  font-size: 100px;
+}
+.contact-c {
+  position:absolute;
+  bottom:255px;
+  right:431px;
+  font-size: 100px;
+}
+.contact-t2 {
+  position:absolute;
+  bottom:255px;
+  right:378px;
+  font-size: 100px;
+}
+.contact-m {
+  position:absolute;
+  bottom:255px;
+  right:250px;
+  font-size: 100px;
+}
+.contact-e {
+  position:absolute;
+  bottom:255px;
+  right:200px;
+  font-size: 100px;
+}
